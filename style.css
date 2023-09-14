@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #435B66;
+    color: #fff;
+}
+
+.main-page {
+    background-color: #A76F6F;
+    display: flex;
+    margin-top:5rem;
+    margin-bottom:5rem;
+    margin-left:auto;
+    margin-right:auto;
+    width: 938px;
+}
+
+.left {
+    width: 40%;
+    background-color: #2D4356;
+}
+
+.img-mk {
+    margin: 3rem;
+}
+
+.mk {
+    border-radius: 50%;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.mk-name {
+    text-align: center;
+}
+
+.mk-name h3 {
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-solid {
+    color: #fff;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.link_tag {
+    text-decoration: none;
+}
+.contact i.fa-fade:hover {
+    color: #00FF00;
+}
+.contact i.fa-facebook:hover {
+    color: blue;
+}
+
+.contact i.fa-instagram:hover {
+    color: #F56040;
+
+}
+
+.contact i.fa-linkedin:hover {
+    color: #0077B5
+}
+
+.contact i.fa-location-dot:hover {
+    color: red;
+}
+
+.education {
+    margin: 3rem 3rem 3rem 3rem;
+    color: #fff;
+}
+
+.edu-sec {
+    font-weight: 200;
+}
+
+.language {
+    margin: 3rem 3rem 3rem 3rem;
+    color: #fff;
+}
+
+.lan-list {
+    font-weight: 200;
+    padding: 5px 0;
+}
+
+/* ========================== */
+.right {
+    color: #F8F1F1;
+    padding: 1.5rem;
+}
+
+.objective {
+    padding: 10px;
+
+}
+
+.obj {
+    text-indent: 50px;
+    color: #F8F1F1;
+    font-weight: 300;
+}
+
+.exp-tit {
+    padding: 10px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.exp-title {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: start;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+    padding: 5px 10px 5px 10px;
+}
+
+.exp-year {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.job-dis {
+    font-weight: 300;
+}
